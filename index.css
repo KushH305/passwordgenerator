@@ -1,0 +1,192 @@
+#container {
+    width: 550px;
+    height: 600px;
+    margin: 0 auto;
+    background: #ECFDF5;
+}
+
+h1 {
+    width: 354px;
+    height: 80px;
+    padding: 115px 144px 0 52px;
+    margin-bottom: 5px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+#h1-span {
+    color: #10B981;
+    ;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+
+#subheader {
+    width: 372px;
+    height: 28px;
+    padding: 0 126px 26px 52px;
+    margin-top: 5px;
+}
+
+#pw-length-p {
+    padding: 0 126px 26px 52px;
+    font-size: 16px;
+    padding-bottom: 0;
+}
+
+#pw-length {
+    width: 191px;
+    margin-left: 52px;
+    vertical-align: middle;
+}
+
+output {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #007aff;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 15px 9px 15px;
+    margin: 26px 0 0 52px;
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); */
+    border: 1px solid #10B981;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    color: white;
+    background: lightseagreen;
+    box-shadow: 0px 1px 2px lightseagreen;
+}
+
+hr {
+    width: 446px;
+    height: 0px;
+    margin: 35px auto;
+    border: 1px solid #2F3E53;
+}
+
+#pw-box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.pw-box {
+    width: 211px;
+    height: 39px;
+    background: #151617;
+    border-radius: 6px;
+}
+
+#pw1, #pw2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #10B981;
+    margin: 0 auto;
+    padding: 6px 32px;
+}
+
+
+.main {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IGicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #cd486b;
+    transition: color 0.2s;
+}
+
+.IGicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #75281C;
+    transition: color 0.3s;
+}
+
+.GHicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #4A4645;
+}
+
+.GHicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.LIicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #5985C4;
+}
+
+.LIicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #0072b1;
+}
